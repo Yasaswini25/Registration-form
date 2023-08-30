@@ -1,7 +1,7 @@
 # Registration-form
 Deployment-link:- https://yasaswini25.github.io/Registration-form/
 ### Project:-
-In this project I have tried to make a clone of landing page of video streaming Website i.e Hotstar.
+In this project I have created a registration form that displays the user information in the same landing page.
 ### Technologies used:-
 [![skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
 ### Landing page
