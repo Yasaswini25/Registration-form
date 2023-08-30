@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="box">
+        <h1>STUDENT REGISTRATION FORM</h1>
+        <div class="container">
+            <div class="form">
+                <form>
+                    <div class="f_name">
+                        <label for="f_name">FIRST NAME: </label>
+                        <input type="text" id="f_name" placeholder="" required>
+                    </div>
+                    <div class="l_name">
+                        <label for="l_name">LAST NAME: </label>
+                        <input type="text" id="l_name" placeholder="" required>
+                    </div>
+                    
+                    <div class="phn">
+                        <label for="phn">CONTACT NUMBER: </label>
+                        <input type="number" id="phn" placeholder="" required>
+                    </div>
+                    <div class="email">
+                        <label for="email">EMAIL: </label>
+                        <input type="email" id="email" placeholder="" required>
+                    </div>
+                    
+                    <div class="image">
+                        <label for="url">IMAGE URL <span>(jpg,jpeg,png format):</span></label><br>
+                        <input type="url" id="url"  placeholder=" "  required>
+                            
+                    </div>
+                    <div class="gender">
+                        <label for="gender">GENDER: </label><br>
+                        <input type="radio" name="male-female" id="male" value="Male" >Male<br>
+                        <input type="radio" name="male-female" id="female" value="Female">Female
+                    </div>
+                    
+                    <div class="skills">
+                        <label for="skills">SKILLS: </label>
+                        <br>
+                        <input type="checkbox" value="cpp" id="cpp" class="checkbox">C++<br>
+                        <input type="checkbox" value="Java" id="c" class="checkbox">Java<br>
+                        <input type="checkbox" value="Data Science" id="c" class="checkbox">Data Science<br>
+                        <input type="checkbox" value="Web Development" id="html" class="checkbox">Web Development<br>
+                        <input type="checkbox" value="Android Development" id="css" class="checkbox">Android Development<br>
+                        <input type="checkbox" value="Machine Learning " id="css" class="checkbox">Machine Learning<br>
+                        <input type="checkbox" value="AI " id="css" class="checkbox">AI
+                
+                    </div>
+                    <div class="button">
+                        <button type="button" id="submit">SUBMIT</button>
+                        <button type="reset" id="reset">RESET</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+<div class="output" >
+                <h2 style="color: #ffffff;">STUDENT DETAILS</h2>
+                <br>
+                <div class="cardContainer" id="cardContainer" style="display: grid;grid-template-columns: repeat(2,1fr);">
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script> 
+</body>
+</html>
